@@ -4,22 +4,16 @@
 
 <!-- dash-content-start -->
 
-[OpenAuth](https://openauth.js.org/) is a universal provider for managing user authentication. By deploying OpenAuth on Cloudflare Workers, you can add scalable authentication to your application. This demo showcases login, user registration, and password reset, with storage and state powered by [D1](https://developers.cloudflare.com/d1/) and [KV](https://developers.cloudflare.com/kv/).
-
-> [!IMPORTANT]
-> When using C3 to create this project, select "no" when it asks if you want to deploy. You need to follow this project's [setup steps](https://github.com/cloudflare/templates/tree/main/oauth-server#setup-steps) before deploying.
+[OpenAuth](https://openauth.js.org/) is a universal provider for managing user authentication. 
+This demo showcases login, user registration, and password reset, with storage and state powered by [D1](https://developers.cloudflare.com/d1/) and [KV](https://developers.cloudflare.com/kv/).
 
 <!-- dash-content-end -->
 
 ## Getting Started
 
-Outside of this repo, you can start a new project with this template using [C3](https://developers.cloudflare.com/pages/get-started/c3/) (the `create-cloudflare` CLI):
-
 ```bash
 npm create cloudflare@latest -- --template=cloudflare/templates/oauth-server
 ```
-
-A live public deployment of this template is available at [https://oauth-server.templates.workers.dev](https://oauth-server.templates.workers.dev)
 
 ## Setup Steps
 
